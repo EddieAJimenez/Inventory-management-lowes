@@ -82,7 +82,7 @@ const Sidebar = () => {
         }`}
       >
         <Image
-            src="https://s-3-inventorymanagement.s3.amazonaws.com/logo.jpg"
+            src="https://s-3-inventorymanagement.s3.amazonaws.com/logo.png"
             alt="eddie-logo"
             width={27}
             height={27}
@@ -93,7 +93,7 @@ const Sidebar = () => {
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          eddie
         </h1>
 
         <button
