@@ -78,16 +78,16 @@ const Sidebar = () => {
       {/* TOP LOGO */}
       <div
         className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${
-          isSidebarCollapsed ? "px-5" : "px-8"
+          isSidebarCollapsed ? 'px-5' : 'px-8'
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
-          alt="eddie-logo"
-          width={27}
-          height={27}
-          className="rounded w-8"
-        />
+            src="https://s-3-inventorymanagement.s3.amazonaws.com/logo.jpg"
+            alt="eddie-logo"
+            width={27}
+            height={27}
+            className="rounded w-8"/>
+        
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
@@ -143,10 +143,9 @@ const Sidebar = () => {
           isCollapsed={isSidebarCollapsed}
         />
       </div>
-
-      {/* FOOTER */}
-      <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
+      {/* Footer */}
+      <div className={`${isSidebarCollapsed ? 'hidden' : 'block'} mb-10`}>
+      <p className="text-center text-xs text-gray-500">&copy; 2024 Eddie</p>
       </div>
     </div>
   );
