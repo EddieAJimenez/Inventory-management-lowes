@@ -64,7 +64,7 @@ const Navbar = () => {
           <hr className="w-0 h-7 border-solid border-l border-gray-300 mx-3" />
           <div className="flex items-center gap-3 cursor-pointer">
             <Image
-            src="https://s-3-inventorymanagement.s3.amazonaws.com/profile.jpg"
+            src="https://s-3-inventorymanagement.s3.amazonaws.com/profile2.jpeg"
             alt="profile"
             width={50}
             height={50}
